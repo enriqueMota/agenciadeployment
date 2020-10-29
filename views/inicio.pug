@@ -1,0 +1,30 @@
+extends ./layout/index
+
+block slider
+     .slider
+          h1 Rio de Janeiro
+          em Aventura
+
+block contenido
+     main.container.mt-5
+          h2.text-center.mb-5 Sobre Nosotros
+          .row
+               .col-md-6
+                    p Nunc rutrum accumsan gravida. Phasellus tempor ligula quis orci sollicitudin, eu vulputate sem luctus. Donec rutrum velit ac ipsum molestie, at condimentum purus vestibulum. Nulla fermentum ex sed pellentesque elementum. Vivamus elementum erat nec ex gravida, non vehicula urna viverra. In sed magna lorem. Vestibulum pharetra mi sed porttitor facilisis. Praesent sollicitudin consequat orci, ac tincidunt ante sagittis id.
+
+                    p Donec pharetra nisi nec elit facilisis dapibus. Cras at finibus velit. Donec felis nulla, mattis et libero id, maximus imperdiet justo. Ut pretium eros a ligula ornare efficitur. Sed mattis auctor erat, in posuere mauris accumsan nec. Integer porttitor erat ut metus rutrum dictum. Aliquam laoreet gravida sem eget facilisis. Cras dictum nunc ac ipsum volutpat lacinia.
+               .col-md-6
+                    img(src="/img/inicio_nosotros.jpg", alt="imagen nosotros" class="img-fluid")
+          include ./layout/bloque_viajes
+     .descuento
+          .container
+               .row
+                    .col-md-6
+                         .contenido
+                              h3 5% de Descuento
+                              p.titulo Viaje a Cánada
+                              p.fecha 20 de Marzo de 2022 - 28 de Marzo de 2022
+                              p.precio $2,500 USD
+     .container
+          h2.mt-5.text-center Testimoniales
+               include ./layout/bloque_testimoniales

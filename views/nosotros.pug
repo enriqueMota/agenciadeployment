@@ -1,0 +1,34 @@
+extends ./layout/index
+
+block contenido
+     main.container.mt-5
+          .row
+               .col-md-5
+                    img(src="img/nosotros.jpg", alt="nosotros", class="img-fluid")
+               .col-md-7
+                    h1= pagina
+                    //- h1 #{pagina} otra forma de llamar una variable en pug
+                    
+                    blockquote Maecenas eleifend risus a arcu fringilla, sed tempus neque ullamcorper. Mauris tincidunt felis quis lectus viverra euismod. Curabitur vel ante dui. Pellentesque erat mauris, pharetra at porta sed, sagittis mattis ligula. Ut sollicitudin orci ullamcorper nisl pellentesque ultrices. Mauris tincidunt nibh eu tellus feugiat ullamcorper. Sed ut enim leo. Sed in venenatis lectus.
+
+                    p nec lobortis augue, sed sodales lectus. Vestibulum eu arcu tortor. Donec fermentum velit quis placerat iaculis. Curabitur consectetur augue eu nisi egestas semper. Pellentesque ultricies egestas sem vitae commodo. Sed vitae ipsum non tortor vestibulum auctor vel id sem. Fusce diam odio, eleifend a aliquam sed, ultrices a lacus.
+
+                    p egestas, nibh faucibus cursus pretium, magna elit facilisis quam, vitae condimentum nisi elit sed justo. Etiam egestas ligula urna, vel finibus dolor dapibus vel. Fusce sollicitudin libero eu mi egestas fringilla. Sed dignissim eleifend arcu, a maximus felis maximus eu.
+
+     .listado-iconos
+          .container.mt-5.py-5.text-center
+               .row
+                    .col-md-4
+                         img(src="img/icono_seguridad.svg", alt="iconos-seguridad", class="img-fluid mb-4")
+                         h2.mb-4 Seguridad
+                         p dolor sit amet, consectetur adipiscing elit. Maecenas eleifend risus a arcu fringilla, sed tempus neque ullamcorper. Mauris tincidunt felis quis lectus viverra euismod.
+
+                    .col-md-4
+                         img(src="img/icono_destinos.svg", alt="iconos-destinos", class="img-fluid mb-4")
+                         h2.mb-4 Mejores Destinos
+                         p dolor sit amet, consectetur adipiscing elit. Maecenas eleifend risus a arcu fringilla, sed tempus neque ullamcorper. Mauris tincidunt felis quis lectus viverra euismod.
+
+                    .col-md-4
+                         img(src="img/icono_precios.svg", alt="iconos-precio", class="img-fluid mb-4")
+                         h2.mb-4 Los Mejores Precios
+                         p dolor sit amet, consectetur adipiscing elit. Maecenas eleifend risus a arcu fringilla, sed tempus neque ullamcorper. Mauris tincidunt felis quis lectus viverra euismod.
